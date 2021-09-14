@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017 - 2018 OpenWrt.org
+# Copyright (C) 2017 - 2021 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -8,13 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=asterisk-chan-quectel
-
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/t4rd15/asterisk-chan-quectel.git
-PKG_SOURCE_VERSION:=ad17cff6d9a1f690c8102e3965e4399c98aea894
-PKG_SOURCE_DATE=2020-05-28
+PKG_VERSION:=1.1-20210411
 PKG_RELEASE:=1
-PKG_MIRROR_HASH:=skip
+
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
+PKG_SOURCE_URL:=https://github.com/t4rd15/asterisk-chan-quectel/archive/refs/tags/$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
+PKG_HASH:=982aabe37bb779afcc823f2f4113a83c459bc14ed2dffaec1a167f93fd4f270d
 
 PKG_FIXUP:=autoreconf
 
