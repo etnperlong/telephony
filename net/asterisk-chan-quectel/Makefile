@@ -12,7 +12,7 @@ PKG_VERSION:=1.1-20210411
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
-PKG_SOURCE_URL:=https://github.com/t4rd15/asterisk-chan-quectel/archive/refs/tags/$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/t4rd15/asterisk-chan-quectel/tar.gz/$(PKG_VERSION)-$(PKG_RELEASE)?
 PKG_HASH:=982aabe37bb779afcc823f2f4113a83c459bc14ed2dffaec1a167f93fd4f270d
 
 PKG_FIXUP:=autoreconf
