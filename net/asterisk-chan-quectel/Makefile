@@ -15,7 +15,7 @@ PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/etnperlong/asterisk-chan-quectel.git
 PKG_SOURCE_VERSION:=f900ec00319217b138a8cc47775eeb9be1afb3da
 PKG_SOURCE_DATE=2021-09-16
-PKG_MIRROR_HASH:=skip
+PKG_MIRROR_HASH:=9ca7f8da25daf5e06e12ee51095132bedb87d1fd99cf7a8d7ecd1b83bedb1d44
 
 PKG_FIXUP:=autoreconf
 
